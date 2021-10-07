@@ -6,7 +6,7 @@ console.log('client side javascript loaded')
 //   })
 // })
 
-fetch('http://localhost:3000/weather?address=dubai').then((response) =>{
+fetch('/weather?address=dubai').then((response) =>{
   response.json().then((data) =>{
      console.log(data)
   })
